@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family:monospace;
+  }
+  
+  .navbar {
+    background-color:black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .navbar-title {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .navbar-subtitle{
+    font-weight: 100 ;
+    font-size: 20px;
+    display: grid;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  
+  #active {
+    color: white;
+  }
+  
+  .navbar-menu li:hover {
+    color: grey;
+  }
+  
+  .navbar-menu i {
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .navbar-menu i:hover {
+    color: grey;
+  }
+  
+  .header {
+    background-image: url("./images/image.png");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .mainName {
+    background-color: rgba(43, 63, 80);
+    align-items: center;
+    font-size: 30px;
+    color: white;   
+  }
+
+  
+
+  .navbar-menu i:hover {
+    color: grey;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: 250px;
+    margin: 30px 110px;
+
+  }
+  
+  .card-header img {
+    width: 300px;
+    height: 200px;
+   }
+  
+  .card-body {
+    text-align: center;
+    padding: 15px 25px;
+    background-color: white;
+    width: 100%;
+  }
+  
+  .card-content h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .card-content h2 {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 100;
+    color: grey;
+  }
+  
+  .card-content p {
+    font-size: 20px;
+  }
+  
+  .card-footer {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    color: grey;
+  }
+  
+  .card-footer a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  footer {
+    background-color: #0e0e0e;
+    color: white;
+    padding: 30px 30px 20px;
+    background-size: cover;
+  }
+  
+  .text p{
+    font-size: 20px;
+    }
+
+    .icons i{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+  .itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
